@@ -6,7 +6,7 @@ public class Q5_DigitGrouping {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        //Input
+        
         int numGroup=0,longestGrpLength=0,sumGrpLength=0;
         String n;
 
