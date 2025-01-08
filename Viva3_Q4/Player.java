@@ -49,7 +49,7 @@ public class Player {
     
     
     //Additional method
-    //Returns the player's and enemy's health and attack power
+    //Returns the player's health and attack power
     public void printStatus(){
         String log = name + " (Health: " + Math.max(0,health) + ", Attack Power(next/after restored/reset): " + attackPower + ")";
         System.out.println(log);
