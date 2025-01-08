@@ -35,7 +35,7 @@ public class Enemy {
     }
     
     //Additional method
-    //Returns the player's and enemy's health and attack power
+    //Returns the enemy's health and attack power
     public void printStatus(){
         String log = type + " (Health: " + Math.max(0,health) + ", Attack Power(next/after restored/reset): " + attackPower + ")";
         System.out.println(log);
